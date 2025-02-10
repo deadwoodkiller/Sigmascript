@@ -1,4 +1,6 @@
-function InitLib(Main)
+Lib = {}
+
+function Lib:InitLib(Main)
     if game.Players.LocalPlayer.UserId ~= 7743219187 then
         Main:Notify({
             Title = "Warning",
@@ -17,4 +19,4 @@ function InitLib(Main)
         game.Players.LocalPlayer:Kick("kick")
     end
 end
-return InitLib
+return Lib
