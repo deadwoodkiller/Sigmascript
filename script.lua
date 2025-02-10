@@ -16,7 +16,7 @@ function Lib:InitLib(Main)
             Duration = 5
         })
         task.wait(2)
-        game.Players.LocalPlayer:Kick("kick")
+        game.Players.LocalPlayer:Kick("Danny Leckt kleine Eier")
     end
 end
 return Lib
